@@ -615,7 +615,7 @@
     background: var(--primary-color);
     border: none;
     border-radius: var(--border-radius-medium);
-    color: var(--dark-color);
+    color: white;
     cursor: pointer;
     font-size: var(--p-font-size);
     line-height: 0;
