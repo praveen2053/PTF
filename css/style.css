@@ -54,6 +54,7 @@
 
   body {
     font-family: var(--base-font-family);
+    background-color: #010101;
   }
 
 
@@ -189,14 +190,14 @@
   }
 
   .navbar-brand {
-    color: blue;
+    color: rgb(186, 55, 183);
     font-weight: var(--font-weight-light);
     font-size: var(--h4-font-size);
   }
 
   .navbar .custom-btn {
-    background: var(--primary-color);
-    color: var(--dark-color);
+    background-color: rgb(186, 55, 183);
+    color: white
   }
 
   .contact-form #submit-button:hover,
@@ -366,7 +367,6 @@
     font-size: 2.8em;
     font-weight: bold;
     margin-bottom: 40px;
-    color: #333;
     letter-spacing: 1px;
 }
 
@@ -724,4 +724,13 @@
       font-size: 20px;
       padding: 0.3rem 2rem 0.6rem 2rem;
     }
+  }
+  .a1 {
+    color: white;
+  }
+  .a2 {
+    color: white;
+  }
+  .a3 {
+    background-color: rgb(186, 55, 183);
   }
