@@ -542,7 +542,7 @@
   .contact-form .form-control {
     background: transparent;
     border: none;
-    border-bottom: 1px solid rgba(142, 140, 140, 0.35);
+    border-bottom: 1px solid whitesmoke;
     box-shadow: none;
     border-radius: 0;
     outline: none;
@@ -569,6 +569,7 @@
 
   .webform-label {
     cursor: text;
+    color: #ffffff;
     font-size: 12px;
     font-weight: var(--font-weight-light);
     margin-bottom: 5px;
@@ -612,7 +613,7 @@
   }
 
   .contact-form #submit-button {
-    background: var(--primary-color);
+    background-color: rgb(186, 55, 183);
     border: none;
     border-radius: var(--border-radius-medium);
     color: white;
@@ -735,5 +736,8 @@
     background-color: rgb(186, 55, 183);
   }
   .a4 {
+    color: white;
+  }
+  .a5 {
     color: white;
   }
